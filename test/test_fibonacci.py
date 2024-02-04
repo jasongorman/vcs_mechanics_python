@@ -19,6 +19,9 @@ class FibonacciTest(unittest.TestCase):
     def test_fifth_number_is_three(self):
         self.assertEqual(3, fibonacci(4))
 
+    def test_sixth_number_is_five(self):
+        self.assertEqual(5, fibonacci(5))
+
 
 if __name__ == '__main__':
     unittest.main()
